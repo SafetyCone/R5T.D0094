@@ -1,0 +1,3 @@
+R5T.D0094.Base - Service definitions for ConsoleLoggerProvider implementation of ILoggerProvider.
+
+GOALS:
