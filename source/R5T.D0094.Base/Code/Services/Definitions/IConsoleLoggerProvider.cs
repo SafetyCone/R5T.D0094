@@ -1,13 +1,14 @@
 using System;
-using System.Threading.Tasks;
 
-using R5T.Dacia;
+using Microsoft.Extensions.Logging;
+
+using R5T.T0064;
 
 
 namespace R5T.D0094
 {
     [ServiceDefinitionMarker]
-    public interface IConsoleLoggerProvider
+    public interface IConsoleLoggerProvider : ILoggerProvider, IServiceDefinition
     {
     }
 }
