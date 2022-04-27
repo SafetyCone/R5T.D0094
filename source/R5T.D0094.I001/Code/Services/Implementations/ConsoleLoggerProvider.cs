@@ -60,6 +60,7 @@ namespace R5T.D0094.I001
 
         private ILoggerSynchronicityProvider LoggerSynchonicityProvider { get; }
         
+        // Requires setup on first-time use.
         private IConsoleLogMessageSink ConsoleLogMessageSink { get; set; }
 
 
